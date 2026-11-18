@@ -1,0 +1,11 @@
+@PhishingDetectorApi_HostAddress = http://localhost:5219
+
+GET {{PhishingDetectorApi_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{PhishingDetectorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
